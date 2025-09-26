@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/textView23JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="100dp"
+        android:fontFamily="@font/rammetto_one"
+        android:text="SIGN UP"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTxtFullNameJASS"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/input_chip"
+        android:ems="10"
+        android:fontFamily="@font/radio_canada"
+        android:hint="Juan Dela Cruz"
+        android:inputType="text"
+        android:paddingLeft="15sp"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25JASS" />
+
+    <EditText
+        android:id="@+id/editTxtEmailJASS"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/input_chip"
+        android:drawableLeft="@drawable/baseline_email_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="@font/radio_canada"
+        android:hint="someone@example.com"
+        android:inputType="text"
+        android:paddingStart="15sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27JASS" />
+
+    <EditText
+        android:id="@+id/editTxtPhoneJASS"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="36dp"
+        android:background="@drawable/input_chip"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="@font/radio_canada"
+        android:hint="09123456789"
+        android:inputType="text"
+        android:paddingStart="15sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28JASS" />
+
+    <EditText
+        android:id="@+id/editTxtPasswordJASS"
+        android:layout_width="315sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="42dp"
+        android:background="@drawable/input_chip"
+        android:drawableLeft="@drawable/outline_key_24"
+        android:drawableRight="@drawable/baseline_remove_red_eye_24"
+        android:drawablePadding="10sp"
+        android:ems="10"
+        android:fontFamily="@font/radio_canada"
+        android:hint="At least 8 characters long"
+        android:inputType="text"
+        android:paddingStart="15sp"
+        android:paddingRight="15sp"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29JASS" />
+
+    <Button
+        android:id="@+id/btnSignUpJASS"
+        android:layout_width="317dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/primary_green"
+        android:fontFamily="@font/radio_canada"
+        android:text="Sign up"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPasswordJASS" />
+
+    <TextView
+        android:id="@+id/textView24JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/radio_canada"
+        android:text="Already have an account? Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSignUpJASS" />
+
+    <TextView
+        android:id="@+id/textView25JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/radio_canada"
+        android:text="Full Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView23JASS" />
+
+    <TextView
+        android:id="@+id/textView27JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="293dp"
+        android:fontFamily="@font/radio_canada"
+        android:text="Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.146"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtFullNameJASS" />
+
+    <TextView
+        android:id="@+id/textView28JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="293dp"
+        android:fontFamily="@font/radio_canada"
+        android:text="Phone Number"
+        android:textAlignment="textStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtEmailJASS" />
+
+    <TextView
+        android:id="@+id/textView29JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="292dp"
+        android:fontFamily="@font/radio_canada"
+        android:text="Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.357"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTxtPhoneJASS" />
+
+    <TextView
+        android:id="@+id/textView31JASS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/radio_canada_light"
+        android:text="Santos_3ITC"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24JASS" />
+</androidx.constraintlayout.widget.ConstraintLayout>
